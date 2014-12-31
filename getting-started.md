@@ -1,3 +1,7 @@
+---
+title: Mobile BaaS
+---
+
 ## Mobile BaaS
 
 This guide is intended to familiarize you with making API calls against the [Catalyze Mobile backend as a Service](https://catalyze.io/backend-as-a-service/) (BaaS)
