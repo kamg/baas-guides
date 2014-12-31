@@ -2,7 +2,7 @@
 title: Building Custom Classes
 ---
 
-## Building Custom Classes
+# Building Custom Classes
 
 ### Introduction
 

@@ -1,7 +1,7 @@
 ---
 title: Permissions and ACLs
 ---
-## Permissions and ACLs
+# Permissions and ACLs
 
 This guide highlights some of the permission model features that are provided as part of the Catalyze Mobile Backend as a Service (BaaS). The key features covered are:
 

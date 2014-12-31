@@ -2,7 +2,7 @@
 title: Clinical Data Models
 ---
 
-## Clinical Data Models
+# Clinical Data Models
 
 These are some example clinical data models based off of CCDA models. You can use these as a base, or alter them as needed - these are just ideas for ways you can use custom classes. The descriptions are just the way we've imagined each field would be used, but you don't have to use it that way. Custom classes work the way **you** want them to.
 
