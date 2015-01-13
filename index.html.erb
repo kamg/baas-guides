@@ -5,20 +5,16 @@ layout: layout
 <%= partial "sections/header_index" %>
 <div class="grid">
 	<section class="r_submod-masthead">
-		<h1 class="r_header-left"><i class="fa fa-mortar-board"></i> <a href="/baas/guides">Catalyze BaaS Guides</a></h1>
-		<a href="/baas" class="r_crumb-right"><i class="fa fa-home"></i> BaaS Resources Home</a>
+		<h1 class="r_header-left"><i class="fa fa-cubes"></i> <a href="/baas/libraries">Catalyze BaaS Guides</a></h1>
+		<form class="r_inline-search">
+			<div class="r_search-wrapper">
+				<label for="globalSearch">Search:</label>
+				<input name="globalSearch" type="text" placeholder="Search all resources...">
+				<span><i class="fa fa-search"></i></span>
+			</div>
+		</form>
 	</section>
-	<div class="col-1-1">
-		<section class="r_justsearch-masthead">
-			<form class="r_search-form">
-				<div class="r_input-wrapper">
-					<label for="sectionSearch">Search:</label>
-					<input type="text" name="sectionSearch" placeholder="Find BaaS Resources...">
-					<span><i class="fa fa-search"></i></span>
-				</div>
-			</form>
-		</section>
-	</div>
+	<a href="/baas" class="r_crumb-left"><i class="fa fa-home"></i> BaaS Resources Home</a>
 </div>
 <section class="r_4up-cards">
 	<div class="grid">
