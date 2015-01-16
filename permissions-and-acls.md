@@ -41,14 +41,14 @@ In the following examples, we will assume that Alice is the medical doctor and i
 
 Values needed to run this example:
 
-| Value | Description |
-| -- | -- |
-| *filePath* | The full path of a file to upload. Can be an image, PDF, etc. |
-| *apiKey* | The API key for ExampleApp |
-| *aliceSessionToken* | a valid session token for Alice obtained from logging in using *apiKey* |
-| *bobSessionToken* | a valid session token for Bob obtained from logging in using *apiKey* |
-| *aliceUsersId* | Alice's *usersId*, obtained when signing Alice in to ExampleApp |
-| *bobUsersId* | Bob's *usersId*, obtained when signing Bob in to ExampleApp |
+Value               |DESCRIPTION
+--------------------|--------
+*filePath*          |The full path of a file to upload. Can be an image, PDF, etc.
+*apiKey*            |The API key for ExampleApp
+*aliceSessionToken* |a valid session token for Alice obtained from logging in using *apiKey*
+*bobSessionToken*   |a valid session token for Bob obtained from logging in using *apiKey*
+*aliceUsersId*      |Alice's *usersId*, obtained when signing Alice in to ExampleApp
+*bobUsersId*        |Bob's *usersId*, obtained when signing Bob in to ExampleApp
 
 #### Alice Uploads a File for Bob
 
@@ -128,12 +128,12 @@ This section is very similar in purpose to the previous section, where a user wa
 
 Values needed to run this example:
 
-| Value | Description |
-| -- | -- |
-| *apiKey* | The API key for ExampleApp |
-| *aliceSessionToken* | a valid session token for Alice obtained from logging in using *apiKey* |
-| *bobSessionToken* | a valid session token for Bob obtained from logging in using *apiKey* |
-| *bobUsersId* | Bob's *usersId*, obtained when signing Bob in to ExampleApp |
+Value               |Description
+--------------------|------------
+*apiKey*            |The API key for ExampleApp
+*aliceSessionToken* |a valid session token for Alice obtained from logging in using *apiKey*
+*bobSessionToken* |a valid session token for Bob obtained from logging in using *apiKey*
+*bobUsersId* |Bob's *usersId*, obtained when signing Bob in to ExampleApp
 
 #### Alice Creates an Entry for Bob
 
@@ -185,26 +185,26 @@ In this section, we will manipulate the access control lists (ACLs) within Examp
 
 Values needed to run this example:
 
-| Value | Description |
-| -- | -- |
-| *adminApiKey* | The transient API key for ExampleApp from calling **/auth/all** (see "Get an Admin-level Session token and API Key" under "Getting Started")|
-| *adminSessionToken* | The session token from **/auth/all** |
-| *apiKey* | The API key for ExampleApp |
-| *aliceSessionToken* | a valid session token for Alice obtained from logging in using *apiKey* |
-| *bobSessionToken* | a valid session token for Bob obtained from logging in using *apiKey* |
-| *aliceUsersId* | Alice's *usersId*, obtained when signing Alice in to ExampleApp |
-| *bobUsersId* | Bob's *usersId*, obtained when signing Bob in to ExampleApp |
+Value                |Description
+---------------------|------------
+*adminApiKey*        |The transient API key for ExampleApp from calling **/auth/all** (see "Get an Admin-level Session token and API Key" under "Getting Started")
+*adminSessionToken*  |The session token from **/auth/all**
+*apiKey*             |The API key for ExampleApp
+*aliceSessionToken*  |a valid session token for Alice obtained from logging in using *apiKey*
+*bobSessionToken*    |a valid session token for Bob obtained from logging in using *apiKey*
+*aliceUsersId*       |Alice's *usersId*, obtained when signing Alice in to ExampleApp
+*bobUsersId*         |Bob's *usersId*, obtained when signing Bob in to ExampleApp
 
 Within an application, a user can have create, read, update and delete permissions (CRUD) within files and custom classes.
 
 Here is a summary of the permission types:
 
-| Permission | Description |
-| -- | -- |
-| *create* | The ability to create data across the application. |
-| *read* | The ability to read data across the application. Can list and query data items as well. |
-| *update* | The ability to update any data item within the application. |
-| *delete* | The ability to delete any data item within the application. |
+Permission |Description
+-----------|---
+*create*   |The ability to create data across the application.
+*read*     |The ability to read data across the application. Can list and query data items as well.
+*update*   |The ability to update any data item within the application.
+*delete*   |The ability to delete any data item within the application.
 
 
 #### Granting Create on Files
